@@ -20,4 +20,6 @@ To stop it press Ctrl-E or end the Python process in Task Manager
 
 ## To do
 - [ ] Stop lag when sending email
+- [ ] Log mouse action too
+- [ ] Take pictures and send those too
 - [ ] Make Mac compatible (maybe Linux?)
