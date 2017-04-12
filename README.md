@@ -11,8 +11,13 @@ To stop it press Ctrl-E or end the Python process in Task Manager
 - Adds to startup directory
 - Runs in background
 - Retrieves info about computer (FQDN, Processor, etc)
+- Emails are encoded (Base64)
 
+## Modules 
+- win32gui
+- pywin32
+- pyHook
 
 ## To do
 - [ ] Stop lag when sending email
-- [ ] Make Mac compatible
+- [ ] Make Mac compatible (maybe Linux?)
