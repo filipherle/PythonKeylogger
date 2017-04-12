@@ -14,5 +14,5 @@ To stop it press Ctrl-E or end the Python process in Task Manager
 
 
 ## To do
-[ ] Stop lag when sending email\n
-[ ] Stop lag when sending email
+- [ ] Stop lag when sending email
+- [ ] Make Mac compatible
